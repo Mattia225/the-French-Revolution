@@ -1,0 +1,778 @@
+@font-face {
+    font-family: "TT-Marxiana-Trial-Antiqua";
+    src: url("fonts/TT-Marxiana-Trial-Elzevir.ttf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+	}
+	@font-face {
+    font-family: "Noto Emoji";
+    src: url("fonts/NotoEmoji-Regular.ttf") format("truetype");
+}
+h1 {
+	font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 color: #8e6e32;
+	 font-size: 58px;
+	 text-align: center;
+	 text-transform: uppercase;
+	}	
+html, body {
+	font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+  background-color: #a2b3b2;
+  margin: 0; /* opzionale, toglie i bordi bianchi */
+    display: flex;
+  flex-direction: column; /* 👈 IMPORTANTISSIMO */
+  
+}
+.boxwall {
+    background-image: url("img/p.png"),
+        url("img/p2.png"),
+        url("img/p1.png"),
+        url("img/p4.png"),
+        url("img/p3.png");		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+}
+h2 {
+	font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 color: #8e6e32;
+	 font-size: 43.4px;
+	 text-align: center;
+	}	
+	.box {
+  display: flex;
+   justify-content: flex-start;   /* center | flex-start | flex-end | space-between */
+   margin-left: 230px;
+   }
+   	.box1 {
+  display: flex;
+   justify-content: flex-start;   /* center | flex-start | flex-end | space-between */
+   margin-left: 300px;
+}
+.boxwa {
+    background-image: 
+        url("img/p6.png"),
+        url("img/p5.png");
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+	background-color: #eaeaea;
+}
+.page {
+  min-height: 100vh; /* ogni pagina occupa lo schermo */
+  font-family: "TT-Marxiana-Trial-Antiqua", serif;
+}
+.separator {
+	display: flex;
+  height: 10px;        /* spessore */
+  width: 100%;
+  background-color: black;
+}
+	.box2 {
+  
+   justify-content: center;   /* center | flex-start | flex-end | space-between */
+   margin-top: 54vh;
+   }
+   	.box3 {
+     margin-left: 300px;
+     max-width: 900px;
+     
+   
+}
+.boxwax {
+    background-image:
+        url("img/p9.png"),	
+        url("img/p8.png"),
+        url("img/p7.png");
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+	}
+.boxwax1 {
+    background-image:
+        url("img/p10.png"),	
+        url("img/p11.png");
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+	background-color: #aa9162;
+	}
+   	.box4 {
+     margin-top: 430px;
+     
+}
+.boxwax2 {
+    background-image:
+        
+        url("img/p12.png");
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 110vh; /* div copre tutta la finestra */
+	background-color: #eaeaea;
+	}
+   	.box5 {
+     margin-top: 430px;
+     
+}
+.rivoluzione {
+  font-family: "TT-Marxiana-Trial-Antiqua", serif;
+  color: #8b6a2e;
+  margin-top: 200px;
+}
+
+.riga {
+  display: grid;
+  grid-template-columns: 80px 300px 1fr;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: start;
+  font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 
+	 
+}
+
+.white {
+	color: #fff7eb;
+	}
+
+.riga1 {
+  
+  grid-template-columns: 80px 300px 1fr;
+  gap: 20px;
+  
+  align-items: center;
+  font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 color: #fff7eb;
+	 font-size: 53.8px;
+	 text-transform: uppercase;
+	 
+}
+
+.riga2 {
+  
+  grid-template-columns: 80px 300px 1fr;
+ 
+  
+  align-items: center;
+  font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 color: #fff7eb;
+	 font-size: 24.2px;
+	 
+	 
+}
+.numero {
+  
+  font-weight: bold;
+}
+
+.titolo {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.testo {
+  line-height: 1.6;
+  text-align: justify;
+}
+.boxwax3 {
+  background-image:
+    url("img/p14.png"),
+    url("img/p13.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+  display: flex;              /* 🔥 QUESTO MANCAVA */
+  justify-content: center;    /* centro orizzontale */
+  align-items: flex-end;      /* 👈 lo spinge GIÙ */
+}
+
+.box6 {
+  padding-bottom: 120px;      /* regoli quanto sale/scende */
+  color: #fff7eb;
+}
+
+.due-colonne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin: 0 180px;
+ 
+}
+.riga3 {
+  
+  grid-template-columns: 80px 300px 1fr;
+  gap: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+  font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 color: #fff7eb;
+	 font-size: 53.8px;
+	 text-transform: uppercase;
+	 
+}
+
+.riga4 {
+  
+  grid-template-columns: 80px 300px 1fr;
+ 
+  
+  align-items: center;
+  font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 color: #fff7eb;
+	 font-size: 24.2px;
+	 
+	 
+}
+.boxwax4 {
+  background-image:
+    url("img/p15.png"),
+    url("img/p17.png"),
+	url("img/p18.png"),
+	url("img/p16.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+ padding-left: 120px;
+ padding-top: 120px;    
+             /* 🔥 QUESTO MANCAVA */
+     /* centro orizzontale */
+        /* 👈 lo spinge GIÙ */
+}
+
+.box7 {
+  padding-bottom: 120px;      /* regoli quanto sale/scende */
+  color: #fff7eb;
+}
+.riga10 {
+  
+  
+  grid-template-columns: 0fr;
+  max-width: 700px;
+ 
+  
+  align-items: center;
+  font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 color: #fff7eb;
+	 font-size: 24.2px;
+	 
+	 
+}
+
+.titolo10 {
+   
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.testo10 {
+
+  line-height: 1.6;
+  text-align: justify;
+}
+.rivoluzione1 {
+
+  font-family: "TT-Marxiana-Trial-Antiqua", serif;
+  color: #8b6a2e;
+  margin-top: 0px;
+}
+.boxwax10 {
+    background-image:
+	    url("img/p19.png"),
+        url("img/p20.png"),	
+        url("img/p21.png");
+		
+		
+        		/* percorso corretto */
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 100vh; /* div copre tutta la finestra */
+	}
+	.box10 {
+  padding-bottom: 120px; /* regoli quanto sale/scende */
+  color: #fff7eb;
+}
+.boxwax11 {
+  background-image:
+    url("img/p22.png"),
+	url("img/p23.png"),
+	url("img/p24.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+ padding-left: 120px;
+ padding-top: 120px;    
+             /* 🔥 QUESTO MANCAVA */
+     /* centro orizzontale */
+        /* 👈 lo spinge GIÙ */
+}
+.riga11 {
+  
+  
+  grid-template-columns: 0fr;
+  max-width: 700px;
+ 
+  
+  align-items: center;
+  font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 color: #8e6e32;
+	 font-size: 24.2px;
+	 
+	 
+}
+.boxwax12 {
+  background-image:
+    url("img/p25.png"),
+	url("img/p26.png"),
+	url("img/p27.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+   
+             /* 🔥 QUESTO MANCAVA */
+     /* centro orizzontale */
+        /* 👈 lo spinge GIÙ */
+}
+.riga12 {
+ display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 120px 150px 0 150px;
+  gap: 80px; 
+}
+.rivoluzione2 {
+text-align: right;
+  font-family: "TT-Marxiana-Trial-Antiqua", serif;
+  color: #fff7eb;
+  margin-top: 0px;
+   margin-right: 150px;
+}
+.titolo11 {
+   
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  flex-shrink: 0; 
+}
+
+.testo11 {
+
+  font-size: 55.2px;
+  color: #fff7eb;
+  max-width: 800px;
+  text-align: left;
+  margin-top: -100px;
+  width: 100%; 
+}
+p {
+	font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+	 margin: 0;
+}
+.boxwax13 {
+  background-image:
+    url("img/p29.png"),
+	url("img/p30.png"),
+	url("img/p28.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+ padding-left: 120px;
+ padding-top: 120px;    
+             /* 🔥 QUESTO MANCAVA */
+     /* centro orizzontale */
+        /* 👈 lo spinge GIÙ */
+}
+.linea {
+  border: none;             /* togli il bordo di default */
+  height: 4px;              /* spessore della linea */
+  background-color: #8b6a2e; /* colore della linea */
+  width: 80%;               /* lunghezza della linea */
+  margin: 40px auto;        /* spazio sopra e sotto e centrata */
+}
+.boxwax14 {
+  background-image:
+    url("img/p33.png"),
+	url("img/p32.png"),
+	url("img/p31.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+ padding-left: 200px;
+ padding-top: 120px;    
+             /* 🔥 QUESTO MANCAVA */
+     /* centro orizzontale */
+  /* 👈 lo spinge GIÙ */
+  }
+.rivoluzione3 {
+text-align: right;
+  font-family: "TT-Marxiana-Trial-Antiqua", serif;
+  color: #fff7eb;
+  margin-top: 0px;
+}
+.titolo12 {
+   
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  flex-shrink: 0; 
+}
+
+.testo12 {
+
+  font-size: 55.2px;
+  color: #6e521c;
+  max-width: 800px;
+  text-align: left;
+  margin-top: -100px;
+  width: 100%; 
+}
+.boxwax15 {
+  background-image:
+    url("img/p36.png"),
+	url("img/p34.png"),
+	url("img/p35.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+ padding-left: 200px;
+ padding-top: 120px;    
+             /* 🔥 QUESTO MANCAVA */
+     /* centro orizzontale */
+  /* 👈 lo spinge GIÙ */
+  }
+.rivoluzione4 {
+text-align: right;
+  font-family: "TT-Marxiana-Trial-Antiqua", serif;
+  color: #fff7eb;
+  margin-top: 0px;
+}
+.titolo13 {
+   
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  flex-shrink: 0; 
+}
+
+.testo13 {
+
+  font-size: 55.2px;
+  color: #fff7eb;
+  max-width: 800px;
+  text-align: left;
+  margin-top: -100px;
+  width: 100%; 
+}
+.boxwax16 {
+  background-image:
+    url("img/p37.png"),
+	url("img/p38.png"),
+	url("img/p40.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+
+font-family: "TT-Marxiana-Trial-Antiqua", Arial, sans-serif;
+ padding-left: 900px;
+ padding-top: 120px;    
+             /* 🔥 QUESTO MANCAVA */
+     /* centro orizzontale */
+  /* 👈 lo spinge GIÙ */
+  }
+.rivoluzione5 {
+text-align: right;
+  font-family: "TT-Marxiana-Trial-Antiqua", serif;
+  color: #8e6e32;
+  margin-top: 0px;
+}
+.titolo15 {
+   
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  flex-shrink: 0; 
+}
+
+.testo15 {
+
+  font-size: 55.2px;
+  color: #8e6e32;
+  max-width: 800px;
+  text-align: left;
+  margin-top: -100px;
+  width: 100%; 
+}
+.img-quinta6 {
+    position: absolute;
+    right: 69px;     
+    top: 13700px;   
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.img-quinta6 video {
+    width: 889px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.video-thumb {
+    position: absolute;
+     top: 10px;
+    left: 10px;
+    width: 889px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* Custom controls centrati */
+.custom-controls {
+	font-family: "Noto Emoji", sans-serif; /* usa le emoji */
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* centra orizzontalmente */
+    width: 700px; /* larghezza fissa */
+    height: 50px; /* altezza fissa */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: rgba(0,0,0,0.5);
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    z-index: 10;
+    opacity: 1;
+    transition: opacity 0.3s;
+
+}
+.custom-controls .time {
+    color: white;
+    font-family: "texgyrebonum", Arial, sans-serif;
+    font-size: 16px;
+    margin-right: 10px;
+    user-select: none; /* non selezionabile */
+}
+
+
+/* Barra progresso */
+.progress-bar {
+    flex: 1;
+    height: 6px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background: red;
+    border-radius: 5px;
+}
+
+/* Pulsante play/pause */
+.play-pause, .fullscreen {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 50%;
+}
+
+/* Volume slider */
+.volume {
+    width: 100px;
+    height: 6px;
+}
+/* FULLSCREEN FIX */
+.img-quinta6.fullscreen {
+    position: fixed;
+    inset: 0;          /* top:0; right:0; bottom:0; left:0 */
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    padding: 0;
+    border-radius: 0;
+}
+
+/* Video fullscreen */
+.img-quinta6.fullscreen video {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+}
+
+/* Copertina fullscreen (FIX DEL BUG) */
+.img-quinta6.fullscreen .video-thumb {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+    object-fit: cover;
+}
+.wrapper {
+    display: flex;
+    justify-content: center; /* centro orizzontale */
+    align-items: center;     /* centro verticale */
+    background-color: black; /* bordi neri intorno al video */
+    width: 100vw;
+    height: 100vh;
+}
+
+video, .thumb {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* mantiene le proporzioni */
+    border-radius: 10px; /* opzionale per stile */
+}
+.video-block {
+    position: relative;             /* posizione normale sotto il video */
+    margin-top: 10px;
+    background: rgba(0,0,0,0.6);   /* sfondo scuro */
+    border: 3px solid #fff;        /* bordo visibile */
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 889px;               /* stessa larghezza del video */
+    z-index: 10;                    /* sopra i controlli */
+}
+.video-text {
+	top: 500px;
+	left: 100px;
+    position: relative;             /* rimane sotto il video */
+    margin-top: 10px;
+    background: rgba(0,0,0,0.6);   /* più scuro per separare */
+    color: white;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: 2px solid #fff;        /* bordo bianco */
+    max-width: 889px;               /* stessa larghezza del video */
+    text-align: left;
+    font-family: Arial, sans-serif;
+    z-index: 5;                     /* sopra lo sfondo ma sotto i controlli */
+    pointer-events: auto;           /* il mouse può cliccare sul testo */
+}
+
+.video-text h3 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.video-text p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.video-text.hidden {
+    display: none; /* Nasconde il testo */
+}
+.custom-controls button {
+    font-family: "Noto Emoji", sans-serif; /* usa le emoji */
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+.custom-controls button:hover {
+    transform: scale(1.2);
+    background: rgba(255,255,255,0.3);
+}
+/* Menu risoluzione */
+.res-button {
+    font-family: "Noto Emoji", sans-serif;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    border: none;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+    position: relative;
+}
+
+.res-button:hover {
+    transform: scale(1.2);
+    background: rgba(255,255,255,0.3);
+}
+
+/* Menu verticale */
+.res-menu {
+    position: absolute;
+    bottom: 60px; /* sopra i controlli */
+    right: 0;
+    background: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    z-index: 20;
+    transition: opacity 0.3s;
+}
+
+.res-menu.hidden {
+    display: none;
+}
+
+.res-option {
+    padding: 8px 20px;
+    color: white;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.res-option:hover {
+    background: rgba(255,255,255,0.2);
+}
+span {
+font-family: "Pompiere", Arial, sans-serif;
+}
+p {
+font-family: "Pompiere", Arial, sans-serif;
+}
